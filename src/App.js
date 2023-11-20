@@ -1,25 +1,16 @@
-import logo from './logo.svg';
+//App.js
 import './App.css';
+import DeleteAxios from './Day8/DeleteAxios';
+//import AxiosGet from './Day8/AxiosGet';
+import PostAxios from './Day8/PostAxios';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PostAxios/>
+      <DeleteAxios/>
     </div>
   );
 }
 
-export default App;
+export default App;
